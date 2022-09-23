@@ -33,8 +33,8 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/rafaelwillen/huddle-landing-page)
+- Live Site URL: [Huddle Landing Page](https://huddle-landing-page-eight-omega.vercel.app/)
 
 ## My process
 
