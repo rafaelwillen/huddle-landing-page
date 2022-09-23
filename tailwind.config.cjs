@@ -16,6 +16,12 @@ module.exports = {
     fontFamily: {
       heading: "Poppins, sans-serif",
       main: "Open Sans, sans-serif"
+    },
+    extend: {
+      backgroundImage: {
+        "hero-pattern-mobile": "url('/src/assets/images/bg-hero-mobile.svg')",
+        "hero-pattern-desktop": "url('/src/assets/images/bg-hero-desktop.svg')"
+      }
     }
   },
   plugins: [],
