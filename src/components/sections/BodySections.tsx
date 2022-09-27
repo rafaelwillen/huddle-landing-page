@@ -19,6 +19,8 @@ const BodySections: FC<{ sectionCards: SectionCardType[] }> = ({
           key={index}
         >
           <img
+            width={448}
+            height={366}
             className="max-w-sm lg:max-w-md w-full mx-auto"
             src={imgSrc}
             alt={heading}

@@ -9,7 +9,8 @@ const Header = () => {
           <img
             src={huddleLogo}
             alt="Huddle Logo"
-            width="128px"
+            width={160}
+            height={26}
             className="w-32 lg:w-40"
           />
           <a
@@ -39,7 +40,8 @@ const Header = () => {
           </div>
           <img
             src={mockups}
-            width={296}
+            width={648}
+            height={462}
             sizes="(min-width: 64em) 42rem, (max-width:63.9em) 18.75rem"
             className="w-full max-w-md mx-auto p-3 mt-6 lg:mt-0 lg:flex-[3] lg:w-0 lg:max-w-2xl"
             alt="Mockups"
