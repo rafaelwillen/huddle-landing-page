@@ -3,7 +3,7 @@ import huddleLogo from "../../assets/images/logo.svg";
 
 const Header = () => {
   return (
-    <div className="bg-hero-pattern-mobile bg-cover bg-center bg-no-repeat lg:bg-hero-pattern-desktop h-screen">
+    <div className="bg-hero-pattern-mobile bg-cover bg-center bg-no-repeat lg:bg-hero-pattern-desktop min-h-screen bg-paleCyan">
       <header className="container m-auto">
         <div className="flex justify-between items-center py-5 px-3">
           <img

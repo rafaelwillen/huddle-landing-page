@@ -2,7 +2,7 @@ import flowingConversations from "./assets/images/illustration-flowing-conversat
 import growTogether from "./assets/images/illustration-grow-together.svg";
 import yourUsers from "./assets/images/illustration-your-users.svg";
 import BodySections, {
-  SectionCardType
+  SectionCardType,
 } from "./components/sections/BodySections";
 import Header from "./components/sections/Header";
 
@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="container mx-auto mt-14 px-6 bg-white">
         <BodySections sectionCards={sectionCards} />
       </main>
     </>

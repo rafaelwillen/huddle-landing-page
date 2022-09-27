@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-    @apply bg-paleCyan text-darkCyan font-main;
+    @apply text-darkCyan font-main;
     font-size: 1.125rem;
 }
