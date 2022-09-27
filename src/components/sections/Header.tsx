@@ -40,6 +40,7 @@ const Header = () => {
           <img
             src={mockups}
             width={296}
+            sizes="(min-width: 64em) 42rem, (max-width:63.9em) 18.75rem"
             className="w-full p-3 mt-6 lg:mt-0 lg:flex-[3] lg:w-0 lg:max-w-2xl"
             alt="Mockups"
           />
