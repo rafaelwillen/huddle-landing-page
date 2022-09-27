@@ -3,7 +3,7 @@ import huddleLogo from "../../assets/images/logo.svg";
 
 const Header = () => {
   return (
-    <div className="bg-hero-pattern-mobile bg-cover bg-center bg-no-repeat lg:bg-hero-pattern-desktop min-h-screen bg-paleCyan">
+    <div className="bg-hero-pattern-mobile bg-cover bg-center bg-no-repeat lg:bg-hero-pattern-desktop py-6 bg-paleCyan">
       <header className="container m-auto">
         <div className="flex justify-between items-center py-5 px-3">
           <img
@@ -32,7 +32,7 @@ const Header = () => {
             </p>
             <a
               href="#"
-              className="bg-primary w-full block text-center text-white text-sm py-2 rounded-full shadow-lg lg:w-1/2 lg:py-3 lg:font-bold"
+              className="bg-primary w-full mx-auto max-w-md block text-center text-white text-sm py-2 rounded-full shadow-lg lg:w-1/2 lg:py-3 lg:font-bold"
             >
               Get Started For Free
             </a>
@@ -41,7 +41,7 @@ const Header = () => {
             src={mockups}
             width={296}
             sizes="(min-width: 64em) 42rem, (max-width:63.9em) 18.75rem"
-            className="w-full p-3 mt-6 lg:mt-0 lg:flex-[3] lg:w-0 lg:max-w-2xl"
+            className="w-full max-w-md mx-auto p-3 mt-6 lg:mt-0 lg:flex-[3] lg:w-0 lg:max-w-2xl"
             alt="Mockups"
           />
         </section>
