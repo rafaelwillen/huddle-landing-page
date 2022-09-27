@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="container mx-auto mt-14 px-6 bg-white">
+      <main className="container mx-auto mt-14 lg:mt-24 px-6 bg-white">
         <BodySections sectionCards={sectionCards} />
       </main>
     </>
