@@ -4,6 +4,7 @@ import yourUsers from "./assets/images/illustration-your-users.svg";
 import BodySections, {
   SectionCardType,
 } from "./components/sections/BodySections";
+import Footer from "./components/sections/Footer";
 import Header from "./components/sections/Header";
 
 const sectionCards: SectionCardType[] = [
@@ -37,6 +38,7 @@ function App() {
       <main className="container mx-auto mt-14 lg:mt-24 px-6 bg-white">
         <BodySections sectionCards={sectionCards} />
       </main>
+      <Footer />
     </>
   );
 }
