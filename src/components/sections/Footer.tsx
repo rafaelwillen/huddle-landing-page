@@ -7,11 +7,13 @@ import {
   TwitterLogo,
 } from "phosphor-react";
 import logo from "../../assets/images/logo-white.svg";
+import FloatingCard from "./FloatingCard";
 
 const Footer = () => {
   return (
     <div className="bg-darkCyan">
-      <footer className="container mx-auto text-white mt-56 pt-28 pb-10 px-4">
+      <footer className="container mx-auto text-white mt-56 pt-28 pb-10 px-4 relative">
+        <FloatingCard />
         <img
           src={logo}
           alt="Huddle logo"

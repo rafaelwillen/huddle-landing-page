@@ -16,3 +16,13 @@ body {
         box-shadow: 0px 0px 10px 0px #e1e1e1;
     }
 }
+
+.floating-card-shadow {
+    box-shadow: 0px 0px 20px 5px rgba(0, 37, 46, 0.2);
+}
+
+@media (min-width: 1024px) {
+    .floating-card-shadow {
+        box-shadow: 0px 0px 10px 0px rgba(0, 37, 46, 0.2);
+    }
+}
