@@ -13,7 +13,6 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -24,17 +23,16 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+- See animations when content is on view for the first time
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+![](./screenshot.png)
 
 ### Links
 
 - Solution URL: [Github](https://github.com/rafaelwillen/huddle-landing-page)
-- Live Site URL: [Huddle Landing Page](https://huddle-landing-page-eight-omega.vercel.app/)
+- Live Site URL: [Huddle Landing Page](https://huddle-landing-page-willen.vercel.app/)
 
 ## My process
 
@@ -48,12 +46,15 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 - [React](https://reactjs.org/) - JS library
 - [Vite](https://vitejs.dev/) - Frontend Tooling
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
+- [Framer Motion](https://www.framer.com/motion/) - Animation
 
 ### What I learned
 
-
-### Useful resources
+This is my first time using an animation library on React. I picked up framer because it's easy to use and do the things that I want. Well, you can see by yourself the implementation on the code and the solution on the live site.
 
 
 ## Author
 
+Made by this awesome developer: **Rafael Willen** :).
+
+Don't forget to check my [Github](https://github.com/rafaelwillen/) and [LinkedIn](https://www.linkedin.com/in/rafael-padre/) account!

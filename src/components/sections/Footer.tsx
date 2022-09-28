@@ -78,17 +78,26 @@ const Footer = () => {
           <ul className="flex justify-center gap-4 my-7">
             <li>
               <a href="#" title="Facebook">
-                <FacebookLogo size={38} />
+                <FacebookLogo
+                  size={38}
+                  className="transition duration-300 hover:text-primary"
+                />
               </a>
             </li>
             <li>
               <a href="#" title="Twitter">
-                <TwitterLogo size={38} />
+                <TwitterLogo
+                  size={38}
+                  className="transition duration-300 hover:text-primary"
+                />
               </a>
             </li>
             <li>
               <a href="#" title="Instagram">
-                <InstagramLogo size={38} />
+                <InstagramLogo
+                  size={38}
+                  className="transition duration-300 hover:text-primary"
+                />
               </a>
             </li>
           </ul>
