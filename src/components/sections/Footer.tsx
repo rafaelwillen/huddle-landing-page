@@ -30,42 +30,45 @@ const Footer = () => {
               illo!
             </p>
             <PhoneCall size={25} />
-            <a href="tel:+15431234567" className="hover:underline w-fit">
+            <a href="tel:+15431234567" className="animated-underline w-fit">
               +1-543-123-4567
             </a>
             <EnvelopeSimple size={25} />
-            <a href="mailto:example@xpto.com" className="hover:underline w-fit">
+            <a
+              href="mailto:example@xpto.com"
+              className="animated-underline w-fit"
+            >
               example@xpto.com
             </a>
           </div>
           <ul className="flex flex-col gap-4 font-light grid-cols-2 md:grid md:justify-items-center">
             <li>
-              <a href="#" className="hover:underline">
+              <a href="#" className="animated-underline">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="#" className="animated-underline">
                 What We Do
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="#" className="animated-underline">
                 FAQ
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="#" className="animated-underline">
                 Career
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="#" className="animated-underline">
                 Blog
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="#" className="animated-underline">
                 Contact Us
               </a>
             </li>
