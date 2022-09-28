@@ -5,6 +5,7 @@
 body {
     @apply text-darkCyan font-main;
     font-size: 1.125rem;
+    overflow-x: hidden;
 }
 
 .section-shadow {

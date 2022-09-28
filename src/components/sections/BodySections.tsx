@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { FC } from "react";
 
 export type SectionCardType = {
@@ -12,13 +13,24 @@ const BodySections: FC<{ sectionCards: SectionCardType[] }> = ({
   return (
     <>
       {sectionCards.map(({ content, heading, imgSrc }, index) => (
-        <section
+        <motion.section
+          transition={{ duration: 0.6 }}
+          initial={{ opacity: 0, y: 200 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           className={`section-shadow mb-9 last:mb-0 rounded-2xl py-12 px-6 text-center ${
             index % 2 == 0 ? "flex-row-reverse" : "flex-row"
           } lg:flex items-center lg:text-left gap-24 lg:px-16 min-h-[310px]`}
           key={index}
         >
-          <img
+          <motion.img
+            transition={{
+              type: "spring",
+              repeatType: "loop",
+            }}
+            whileHover={{
+              scale: 1.1,
+            }}
             width={448}
             height={366}
             className="max-w-[16rem] lg:max-w-md w-full mx-auto"
@@ -31,7 +43,7 @@ const BodySections: FC<{ sectionCards: SectionCardType[] }> = ({
             </h2>
             <p className="text-sm lg:text-lg  leading-relaxed">{content}</p>
           </div>
-        </section>
+        </motion.section>
       ))}
     </>
   );
