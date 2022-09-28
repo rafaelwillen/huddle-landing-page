@@ -21,7 +21,7 @@ const BodySections: FC<{ sectionCards: SectionCardType[] }> = ({
           <img
             width={448}
             height={366}
-            className="max-w-sm lg:max-w-md w-full mx-auto"
+            className="max-w-[16rem] lg:max-w-md w-full mx-auto"
             src={imgSrc}
             alt={heading}
           />
