@@ -29,9 +29,7 @@ const BodySections: FC<{ sectionCards: SectionCardType[] }> = ({
             <h2 className="mt-8 mb-4 font-heading font-bold text-darkCyan text-xl lg:text-2xl">
               {heading}
             </h2>
-            <p className="text-sm lg:text-lg text-blue leading-relaxed">
-              {content}
-            </p>
+            <p className="text-sm lg:text-lg  leading-relaxed">{content}</p>
           </div>
         </section>
       ))}
