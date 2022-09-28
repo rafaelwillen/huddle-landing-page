@@ -1,4 +1,5 @@
 import {
+  BracketsAngle,
   EnvelopeSimple,
   FacebookLogo,
   InstagramLogo,
@@ -95,6 +96,17 @@ const Footer = () => {
 
         <p className="text-xs font-light text-center lg:text-right">
           &copy; Copyright 2022 Huddle, All rights reserved.
+        </p>
+
+        <p className="text-xs mt-6 font-light text-center flex justify-center items-center gap-1">
+          Made by{" "}
+          <a
+            className="animated-underline"
+            href="https://github.com/rafaelwillen"
+          >
+            Rafael Willen
+          </a>
+          <BracketsAngle size={15} />
         </p>
       </footer>
     </div>
