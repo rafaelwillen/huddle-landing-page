@@ -8,7 +8,7 @@ const FloatingCard = () => {
       <p className="font-bold text-lg mb-6">Ready to build your community?</p>
       <a
         href="#"
-        className="bg-primary px-12 py-3 text-white text-sm rounded-full shadow-lg lg:px-20 "
+        className="bg-primary px-12 py-3 text-white text-sm rounded-full shadow-lg lg:px-20 transition duration-300 hover:bg-opacity-80"
       >
         Get Started For Free
       </a>

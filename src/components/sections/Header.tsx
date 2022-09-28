@@ -14,7 +14,7 @@ const Header = () => {
             className="w-32 lg:w-40"
           />
           <a
-            className="bg-white py-2 px-6 lg:px-12 font-bold text-sm rounded-full shadow-md"
+            className="bg-white py-2 px-6 lg:px-12 font-bold text-sm rounded-full shadow-md transition duration-300 hover:bg-darkCyan hover:text-white"
             href="#"
           >
             Try It Free
@@ -33,7 +33,7 @@ const Header = () => {
             </p>
             <a
               href="#"
-              className="bg-primary w-full mx-auto max-w-md block text-center text-white text-sm py-2 rounded-full shadow-lg lg:w-1/2 lg:py-3 lg:font-bold"
+              className="bg-primary w-full mx-auto max-w-md block text-center text-white text-sm py-2 rounded-full shadow-lg lg:w-1/2 lg:py-3 lg:font-bold transition duration-300 hover:bg-opacity-80"
             >
               Get Started For Free
             </a>
